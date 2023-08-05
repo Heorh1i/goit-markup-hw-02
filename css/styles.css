@@ -42,15 +42,18 @@ h3 {
 .nav {
   font-weight: 500;
   color: #2e2f42;
+  letter-spacing: 0.32px;
 }
-
-.mail:hover,
-.tel:hover {
+.studio:hover,
+.studio:focus {
   color: #404bbf;
 }
 
-.mail:focus,
-.tel:focus {
+.adress {
+  font-style: normal;
+}
+.adress-item:hover,
+.adress-item:focus {
   color: #404bbf;
 }
 
