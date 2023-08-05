@@ -78,7 +78,7 @@ h3 {
 .main-header {
   color: #fff;
   font-size: 56px;
-  line-height: 1.07px;
+  line-height: 1.07;
   letter-spacing: 1.12px;
 }
 .order-service {
@@ -113,9 +113,9 @@ h3 {
 footer {
   background-color: #2e2f42;
 }
-footer .logo {
-  color: #fff;
+footer .logo-element {
+  color: #f4f4fd;
 }
 .footer-text {
-  color: #fff;
+  color: var(--cloud, #f4f4fd);
 }
