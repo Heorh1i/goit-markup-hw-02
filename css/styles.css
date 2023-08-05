@@ -5,6 +5,7 @@ body {
   color: #434455;
   background-color: #fff;
   letter-spacing: 0.32px;
+  font-size: 16px;
 }
 
 a {
@@ -21,6 +22,10 @@ h2 {
 }
 h2 {
   font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.72px;
+  text-transform: capitalize;
+  color: #2e2f42;
 }
 h3 {
   color: #2e2f42;
@@ -73,8 +78,8 @@ h3 {
 .main-header {
   color: #fff;
   font-size: 56px;
-  line-height: 0.9;
-  letter-spacing: 1.17px;
+  line-height: 1.07px;
+  letter-spacing: 1.12px;
 }
 .order-service {
   background-color: #4d5ae5;
@@ -93,7 +98,9 @@ h3 {
 .our-team {
   background-color: #f4f4fd;
 }
-
+.team-member {
+  background-color: #fff;
+}
 /* Our Portfolio */
 .portfolio-header {
   font-size: 36px;
