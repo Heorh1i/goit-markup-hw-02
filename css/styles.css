@@ -1,10 +1,8 @@
 /* Body */
 body {
   font-family: 'Roboto', sans-serif;
-  line-height: 1.5;
   color: #434455;
   background-color: #fff;
-  letter-spacing: 0.32px;
   font-size: 16px;
 }
 
@@ -15,25 +13,7 @@ a {
 ul {
   list-style: none;
 }
-h1,
-h2 {
-  font-weight: 700;
-  text-align: center;
-}
-h2 {
-  font-size: 36px;
-  line-height: 1.11;
-  letter-spacing: 0.72px;
-  text-transform: capitalize;
-  color: #2e2f42;
-}
-h3 {
-  color: #2e2f42;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.4px;
-}
+
 /* Header */
 
 .logo {
@@ -49,22 +29,24 @@ h3 {
   color: #2e2f42;
 }
 
-.nav {
+.nav-link {
   font-weight: 500;
   color: #2e2f42;
   letter-spacing: 0.32px;
+  line-height: 0.7;
 }
-.nav-item:hover,
-.nav-item:focus {
+.nav-link:hover,
+.nav-link:focus {
   color: #404bbf;
 }
 
-.adress {
+.adress-link {
   font-style: normal;
   letter-spacing: 0.32px;
+  line-height: 0.7;
 }
-.adress-item:hover,
-.adress-item:focus {
+.adress-link:hover,
+.adress-link:focus {
   color: #404bbf;
 }
 
@@ -80,6 +62,8 @@ h3 {
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: 1.12px;
+  font-weight: 700;
+  text-align: center;
 }
 .order-service {
   background-color: #4d5ae5;
@@ -94,19 +78,68 @@ h3 {
   background-color: #404bbf;
 }
 
+/* Duties */
+.duty-header {
+  color: #2e2f42;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.4px;
+}
+.duty-text {
+  letter-spacing: 0.32px;
+  line-height: 0.7;
+}
+
 /* Our Team */
+.team-header {
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.72px;
+  text-transform: capitalize;
+  color: #2e2f42;
+  font-weight: 700;
+  text-align: center;
+}
 .our-team {
   background-color: #f4f4fd;
 }
 .team-member {
   background-color: #fff;
 }
+.member-name {
+  color: #2e2f42;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.4px;
+}
+.member-role {
+  letter-spacing: 0.32px;
+  line-height: 0.7;
+}
+
 /* Our Portfolio */
 .portfolio-header {
+  font-weight: 700;
+  text-align: center;
   font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.72px;
+  text-transform: capitalize;
+  color: #2e2f42;
 }
-.portfolio-projects li {
-  border: 1px solid #e7e9fc;
+
+.project-header {
+  color: #2e2f42;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.4px;
+}
+.project-industry {
+  letter-spacing: 0.32px;
+  line-height: 0.7;
 }
 
 /* Footer */
@@ -118,4 +151,6 @@ h3 {
 }
 .footer-text {
   color: var(--cloud, #f4f4fd);
+  letter-spacing: 0.32px;
+  line-height: 0.7;
 }
