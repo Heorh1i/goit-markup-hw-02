@@ -13,6 +13,9 @@ a {
 ul {
   list-style: none;
 }
+address {
+  font-style: normal;
+}
 
 /* Header */
 
@@ -33,7 +36,7 @@ ul {
   font-weight: 500;
   color: #2e2f42;
   letter-spacing: 0.32px;
-  line-height: 0.7;
+  line-height: 1.5;
 }
 .nav-link:hover,
 .nav-link:focus {
@@ -43,7 +46,7 @@ ul {
 .adress-link {
   font-style: normal;
   letter-spacing: 0.32px;
-  line-height: 0.7;
+  line-height: 1.5;
 }
 .adress-link:hover,
 .adress-link:focus {
@@ -88,7 +91,7 @@ ul {
 }
 .duty-text {
   letter-spacing: 0.32px;
-  line-height: 0.7;
+  line-height: 1.5;
 }
 
 /* Our Team */
@@ -116,7 +119,7 @@ ul {
 }
 .member-role {
   letter-spacing: 0.32px;
-  line-height: 0.7;
+  line-height: 1.5;
 }
 
 /* Our Portfolio */
@@ -139,7 +142,7 @@ ul {
 }
 .project-industry {
   letter-spacing: 0.32px;
-  line-height: 0.7;
+  line-height: 1.5;
 }
 
 /* Footer */
@@ -152,5 +155,5 @@ ul {
 .footer-text {
   color: var(--cloud, #f4f4fd);
   letter-spacing: 0.32px;
-  line-height: 0.7;
+  line-height: 1.5;
 }
